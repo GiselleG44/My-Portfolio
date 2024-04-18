@@ -1,0 +1,31 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+.hero-section{
+  position:relative;
+  background-image: url(brad-knight-huWlb1NP67w-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 0;
+}
+
+section{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.full-width-bg{
+  background-size:cover;
+  background-position:center;
+  width:100%;
+}
+
+.contact-icon:hover{
+  filter: brightness(0.8);
+}
